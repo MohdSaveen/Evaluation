@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#BC1C2B">
+        <ImageButton
+            android:id="@+id/backarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bx_bx_arrow_back"
+            android:layout_margin="25dp"
+            android:background="#BC1C2B"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="@color/white"
+            android:layout_marginTop="160dp"
+            />
+        <TextView
+            android:id="@+id/text1ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back"
+            android:textColor="#BC1C2B"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@+id/view1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue to Sign In!"
+            android:textColor="#BC1C2B"
+            android:textSize="20sp"
+            android:layout_marginStart="15dp"
+            android:layout_below="@+id/text1ac"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/name1ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#A2A2A2"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="15dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#F5F5F5"
+            android:layout_below="@+id/name1ac"/>
+        <EditText
+            android:id="@+id/edit1ac"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter the name "
+            android:background="#F5F5F5"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/name3ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#A2A2A2"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/edit1ac"
+            android:layout_marginStart="15dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#F5F5F5"
+            android:layout_below="@+id/name3ac"/>
+        <EditText
+            android:id="@+id/edit3ac"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter the email address "
+            android:background="#F5F5F5"
+            android:layout_below="@+id/name3ac"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password ?"
+            android:layout_below="@+id/edit3ac"
+            android:textColor="#BC1C2B"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/button1ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:paddingHorizontal="150dp"
+            android:paddingVertical="15dp"
+            android:background="#BC1C2B"
+            android:textAllCaps="false"
+            android:layout_below="@+id/edit3ac"
+            android:textColor="@color/white"
+            android:layout_marginTop="100dp"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/text3ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1ac"
+            android:layout_marginTop="30dp"
+            android:text="Don't have an account ?"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/text3ac"
+            android:text="Sign Up"
+            android:textColor="#bc1c2b"
+            android:layout_marginStart="350dp"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
